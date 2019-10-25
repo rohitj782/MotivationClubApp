@@ -9,7 +9,7 @@
     tools:context=".ui.getting_started.ConnectUserFragment">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonSkip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -20,7 +20,7 @@
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignIn" />
 
     <TextView
         android:id="@+id/textView2"
@@ -35,11 +35,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/buttonSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="G+"
+        android:text="Sign in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

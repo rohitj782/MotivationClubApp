@@ -1707,6 +1707,8 @@ id button
 id button2
 id button3
 id buttonPanel
+id buttonSignIn
+id buttonSkip
 id cancel_action
 id cancel_button
 id center

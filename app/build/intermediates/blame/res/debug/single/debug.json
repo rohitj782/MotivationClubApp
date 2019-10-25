@@ -4,12 +4,12 @@
         "source": "/mnt/sda3/Android Projects/MotivationClubApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/mnt/sda3/Android Projects/MotivationClubApp/app/build/intermediates/res/merged/debug/layout_home_fragment.xml.flat",
-        "source": "/mnt/sda3/Android Projects/MotivationClubApp/app/src/main/res/layout/home_fragment.xml"
-    },
-    {
         "merged": "/mnt/sda3/Android Projects/MotivationClubApp/app/build/intermediates/res/merged/debug/xml_fragment_splash_scene2.xml.flat",
         "source": "/mnt/sda3/Android Projects/MotivationClubApp/app/src/main/res/xml/fragment_splash_scene2.xml"
+    },
+    {
+        "merged": "/mnt/sda3/Android Projects/MotivationClubApp/app/build/intermediates/res/merged/debug/layout_home_fragment.xml.flat",
+        "source": "/mnt/sda3/Android Projects/MotivationClubApp/app/src/main/res/layout/home_fragment.xml"
     },
     {
         "merged": "/mnt/sda3/Android Projects/MotivationClubApp/app/build/intermediates/res/merged/debug/layout_fragment_connect_user.xml.flat",
