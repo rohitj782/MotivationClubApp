@@ -1,0 +1,7 @@
+#Fri Oct 25 16:39:43 IST 2019
+base.0=/mnt/sda3/Android Projects/MotivationClubApp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/mnt/sda3/Android Projects/MotivationClubApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex

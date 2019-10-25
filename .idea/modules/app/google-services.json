@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "473917099567",
+    "firebase_url": "https://firestoreprojects.firebaseio.com",
+    "project_id": "firestoreprojects",
+    "storage_bucket": "firestoreprojects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473917099567:android:6e878f349e9107fd1c80da",
+        "android_client_info": {
+          "package_name": "com.rohitrj.motivationclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473917099567-ve9ajj58422fovl7paoqmhpenu3qobr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rohitrj.motivationclub",
+            "certificate_hash": "7777a0733c6bddd847b044cfe45ddf2d11efd68e"
+          }
+        },
+        {
+          "client_id": "473917099567-4rqnnmpa3fedbvtssgs3qp91tq1viv65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC77fJVEP9mTjBONKRzxkGlg7AsbglaoNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473917099567-4rqnnmpa3fedbvtssgs3qp91tq1viv65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

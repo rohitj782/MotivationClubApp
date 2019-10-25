@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1200"
+        motion:autoTransition="animateToEnd">
+       <KeyFrameSet>
+           <KeyPosition
+               motion:motionTarget="@+id/textViewM"
+               motion:framePosition="48"
+               motion:percentX=".4" />
+           <KeyAttribute
+               motion:motionTarget="@+id/textViewM"
+               motion:framePosition="45"
+               android:alpha="0.5" />
+           <KeyAttribute
+               motion:motionTarget="@+id/textViewC"
+               motion:framePosition="44"
+               android:alpha="0.5" />
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            motion:layout_constraintTop_toBottomOf="parent"
+            motion:layout_constraintStart_toEndOf="@+id/textViewM"
+            android:id="@+id/textViewC" />
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintHorizontal_bias="0.25"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/textViewM" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/bounceStart" >
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_constraintStart_toEndOf="@+id/textViewM"
+            android:layout_marginTop="32dp"
+            motion:layout_constraintTop_toTopOf="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:id="@+id/textViewC" />
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintBottom_toTopOf="@+id/guideline"
+            motion:layout_constraintHorizontal_bias="0.25"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/textViewM"
+            android:layout_marginBottom="16dp" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/end"
+        motion:constraintSetEnd="@+id/bounceStart"
+        motion:autoTransition="animateToEnd"
+        motion:duration="300" />
+    <Transition
+        motion:constraintSetStart="@+id/bounceStart"
+        motion:constraintSetEnd="@+id/end"
+        motion:autoTransition="animateToEnd"
+        motion:duration="300" />
+</MotionScene>
